@@ -1,0 +1,267 @@
+@media (min-width: 320px) and (max-width: 480px) {  
+  .booking {
+    width: 260px !important;
+    height: 350px !important;
+    margin-top: 10px !important;
+    margin-left: 10px !important;
+  }
+  .dest-card {
+    margin: 0px 0px 25px 5px !important;
+  }
+  .hotel2-right input {
+    padding: 0px !important;
+  }
+  .hotel2-right button {
+    padding: 0px !important;
+  }
+  .pa {
+    padding: 0px !important;
+  }
+  .comments {
+    /*width: 300px !important;*/
+    padding: 20px !important;
+  }
+  .test-right-up-right {
+    margin-left: 15px !important;
+    font-size: 11px !important;
+    margin-top: 6px !important;
+  }
+  .nation {
+    margin-left: 60px !important;
+  }
+  .banner{
+    height: 150vh !important;
+    margin-bottom: 50px !important;
+  }
+  .booking-1 {
+    padding: 30px 0 0px !important;
+  }
+  .booking-1 button {
+    top: 300px !important;
+  }
+  .booking-1 i {
+    top: 314px !important;
+    right: 125px !important;
+  }
+  .overlay {
+    width: 270px !important;
+    height: 190px !important;
+  }
+  .overlay2 {
+    width: 280px !important;
+    height: 490px !important;
+  }
+  .pt-5 {
+    padding-top: 20px !important;
+    padding-bottom: 15px !important;
+  }
+  .navbar-toggler {
+    border: none !important;
+  }
+  .banner {
+    padding-top: 60px !important;
+    padding-left: 20px !important;
+  }
+  header{
+   background-color: white !important;
+  }
+  .banner-left h1 {
+    font-size: 38px !important;
+  }
+  .banner-left p {
+    margin-top: 30px !important;
+    font-size: 20px !important;
+    margin-bottom: 40px !important;
+  }
+  .banner-right img {
+    display: none !important;
+  }
+  .booking-1 button {
+    width: 260px !important;
+    height: 70px !important;
+    padding: 18px 0px 0px 0px !important;
+    font-size: 15px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+  }
+  .destination{
+    padding: 0px 20px 30px 20px !important;
+  }
+  .des {
+    font-size: 40px !important;
+    line-height: 50px !important;
+  }
+  .dest-button1 {
+    margin-left: 181px !important;
+    margin-top: 12px !important;
+    padding: 5px 10px !important;
+    font-size: 12px !important;
+  }
+  .dest-card h1 {
+    font-size: 22px !important;
+    margin-top: 110px !important;
+  }
+  .dest-card p {
+    padding: 0px !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+  }
+  .dest-button2 {
+    margin-left: 75px !important;
+    margin-top: -15px !important;
+  }
+  .dest-card {
+    width: 270px !important;
+    height: 190px !important;
+  }
+  .dest-card:hover .dest-h1 {
+    margin-top: 10px !important;
+  }
+  .footer-left ul{
+    padding: 0px 10px !important;
+  }
+  .footer-right p {
+    padding: 0px 5px !important;
+    text-align: center !important;
+  }
+  .footer-top{
+    padding: 60px 16px !important;
+  }
+  .work {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+  }
+  .ft-second i {
+    font-size: 20px !important;
+    margin-top: 8px !important;
+  }
+  .price{
+    padding: 60px 15px !important;
+  }
+  .newton img {
+    height: 50px !important;
+    width: 50px !important;
+  }
+  .einstine h1 {
+    font-size: 21px !important;
+  }
+  .einstine p {
+    font-size: 17px !important;
+    line-height: 28px !important;
+  }
+  .hotel2-left h1 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
+  .cruise{
+    padding: 0px 20px !important;
+  }
+  .hotel2-left {
+    padding: 30px 35px !important;
+    margin-bottom: 20px !important;
+  }
+  .hotel2-left p {
+    font-size: 18px !important;
+    line-height: 30px !important;
+    padding: 0px !important;
+    margin: 25px 0px 25px 0px !important;
+  }
+  .hotel2-left button {
+    border-radius: 6px !important;
+    padding: 10px 30px !important;
+  }
+  .jemmy{
+    padding: 0px 20px !important;
+  }
+  .hotel2-right {
+    padding: 30px 30px !important;
+  }
+  .hotel2-right h1 {
+    font-size: 28px !important;
+  }
+  .hotel2-right p {
+    line-height: 28px !important;
+    margin: 23px 0px 23px 0px !important;
+  }
+  .farm{
+    margin-top: 40px !important;
+    margin-bottom: 0px !important;
+  }
+  .glass{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+  .tours{
+    padding: 20px 0px !important;
+  }
+  .tahsin{
+    margin-top: 40px !important;
+    padding: 0px 20px !important;
+  }
+  .tour-card{
+    margin: 0px 0px 20px 0px !important;
+  }
+  .testimonial {
+    padding: 50px 20px !important;
+  }
+  .test-left img {
+    height: 50px !important;
+    width: 50px !important;
+  }
+  .test-right-up-left h1 {
+    font-size: 15px !important;
+  }
+  .test-right-up-left h2 {
+    font-size: 14px !important;
+  }
+  .test-right-down p {
+    font-size: 16px !important;
+    line-height: 22px !important;
+  }
+  .test-right {
+    padding-left: 10px !important;
+  }
+  .pa{
+    font-size: 28px !important;
+    line-height: 40px !important;
+    margin-bottom: 20px !important;
+  }
+  .wait{
+    display: none !important;
+  }
+  .bangali{
+    margin-left: 75px !important;
+  }
+  .shoe{
+    padding: 50px 0px 0px 0px !important;
+  }
+  .shirt{
+    padding: 30px 20px !important;
+  }
+  .hotel-card {
+    margin: 10px 0px 10px 0px!important;
+  }
+  .square span{
+    font-size: 40px !important;
+  }
+  .cube{
+    margin-left: 85px !important;
+  }
+  .fresh{
+    padding: 25px 0px 30px 0px !important;
+  }
+  .narrow span{
+    font-size: 40px !important;
+  }
+  .times{
+    padding: 30px 20px !important;
+  }
+  .lead{
+    margin: 10px 0px 10px 0px !important;
+  }
+  .think{
+    margin-left: 100px !important;
+    margin-top: 15px !important;
+  }   
+}

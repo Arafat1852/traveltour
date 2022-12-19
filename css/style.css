@@ -1,0 +1,959 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/*Header Section Code Starts Here*/
+
+/*Logo Code*/
+header{
+    background-color: #f8f9fa;
+}
+.navbar-brand img{
+    margin-top: -6px;
+}
+.navbar-brand{
+    width: 180px;
+}
+/*Menu Code*/
+.nav-item a {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: #94999f;
+    padding-bottom: 2px;
+}
+.pointer{
+    height: 7px;
+    width: 7px;
+    background: #94989c;
+    margin: auto;
+    border-radius: 50%;
+}
+/*Button Code*/
+.header-button{
+    font-weight: 600;
+    line-height: 30px;
+    font-family: "DM Sans",sans-serif;
+    background: #5c98f2;
+    padding: 7px 25px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    border-color: #e1e1e1;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+}
+.list{
+    margin-left: 40px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'DM Sans', sans-serif;
+}
+.dropbtn {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 22px;
+    font-size: 13px;
+    letter-spacing: 2.4px;
+    background-color: transparent;
+    color: black;
+    padding: 13px 15px 10px 15px;
+    border: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    left: 0;
+    padding: 15px 20px 10px 20px;
+    background-color: #ffffff;
+    min-width: 50px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+}
+.dropdown-content a {
+    font-family: 'DM Sans', sans-serif;
+    color: #878787;
+    padding: 0px 0px 9px 3px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*Header Section Code Ends Here*/
+
+/*Banner Section Code Starts Here*/
+.banner{
+    margin-bottom: 70px;
+    padding-bottom: 20px;
+    padding-top: 90px;
+}
+/*Banner Left Side Code*/
+.ban-button{
+    font-family: 'DM Sans', sans-serif;
+    padding: 6px 22px;
+    border-radius: 20px;
+    border: none;
+    background: white;
+    color: #41ddb8;
+    font-weight: 500;
+    font-size: 17px;
+}
+.banner-left h1{
+    margin-top: 23px;
+    font-size: 84px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #1e1e1e;
+    font-family: "DM Serif Display",serif;
+}
+.banner-left h1 span{
+    color: #5C98F2;
+}
+.banner-left p{
+    margin-top: 33px;
+    font-size: 20px;
+    color: #8c8c8c;
+    font-family: "DM Sans",sans-serif;
+}
+.booking{
+    margin-top: 80px;
+    position: absolute;
+    padding: 0 0 0 30px;
+    width: 884px;
+    height: 118px;
+    background: white;
+    border-radius: 15px;
+}
+.booking-1{
+    padding: 30px 0 18px;
+    display: inline-block;
+    margin-right: 35px;
+}
+.booking-1 i{
+    position: absolute;
+    right: 75px;
+    color: white;
+    z-index: 99999;
+    top: 34px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.booking-1 button{
+    font-family: "DM Sans",sans-serif;
+    width: 166px;
+    height: 118px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: .8px;
+    background: #5c98f2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    padding: 45px 32px 14px 34px;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+.booking-1 h3{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #383838;
+    line-height: 22px;
+    font-family: "DM Sans",sans-serif;
+}
+.booking-1 input{
+    font-size: 15px;
+    background: transparent;
+    border: transparent;
+    color: #7f7f7f;
+    height: 36px;
+    font-family: "DM Sans",sans-serif;
+}
+.dropdown-item{
+    text-align: start;
+}
+.dropdown-menu.show {
+    padding: 0;
+    border-radius: 0;
+}
+.dropdown-toggle {
+    padding-left: 0;
+}
+.booking-2{
+    display: inline-block;
+    padding: 0;
+}
+/*Banner Right Side Code*/
+.banner-right img{
+    height: 667.88px;
+    width: 505px;
+    border-radius: 25px;
+    margin-left: -250px;
+}
+/*Banner Section Code Ends Here*/
+
+/*Destination Section Code Starts Here*/
+.des{
+    font-size: 50px;
+    font-weight: 400;
+    color: #000;
+    line-height: 60px;
+    font-family: "DM Serif Display",serif;
+    letter-spacing: 0px;
+    text-transform: none;
+    text-align: center;
+}
+.des span{
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #5c98f2;
+    font-family: "DM Serif Display",serif;
+    text-align: center;
+    line-height: 60px;
+}
+.ti{
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #848484;
+    font-family: "DM Sans",sans-serif;
+    text-align: center;
+    line-height: 31px;
+}
+.nation{
+    padding-bottom: 1px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #343434;
+    text-align: center;
+    line-height: 27px;
+    border: none;
+    margin-top: 30px;   
+    margin-left: 485px;
+    background: transparent;
+    border-bottom: 2px solid #afafaf;
+}
+.nation i{
+    color: #afafaf;
+    padding-left: 9px;
+    padding-right: 3px;
+}
+.nation:hover{
+    border-bottom: 2px solid #5c98f2;
+}
+/*Card Code*/
+.dest-card{
+    width: 350px;
+    height: 245px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.goal{
+    background-image: url("../img/img3.png");
+}
+.foot{
+    background-image: url("../img/img1.png");
+}
+.ball{
+    background-image: url("../img/img2.png");
+}
+.out{
+    background-image: url("../img/img4.png");
+}
+.four{
+    background-image: url("../img/img5.png");
+}
+.six{
+    background-image: url("../img/img6.png");
+}
+.dest-button1{
+    background-color: #5c98f2;
+    color: #fff;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px 11px;
+    border-radius: 3px;
+    font-family: "DM Sans",sans-serif;
+    margin-left: 255px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 9999;
+}
+.dest-card h1{
+    font-family: "DM Serif Display",serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 155px;
+    position: relative;
+    z-index: 9999;
+}
+.dest-card p{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #e9e9e9;
+    text-align: center;
+    padding: 0px 45px 0px 45px;
+    display: none;
+    position: relative;
+    z-index: 8888;
+}
+.dest-button2{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    color: #5c98f2;
+    text-align: center;
+    border: none;
+    background: transparent;
+    margin-left: 110px;
+    margin-top: -10px;
+    display: none;
+    position: relative;
+    z-index: 7777;
+}
+.overlay{
+    color: black;
+    width: 350px;
+    height: 245px;
+    margin-left: -12px;
+    background: #0000004a;
+    border-radius: 10px;
+    z-index: 10;
+    display: none;
+    position: absolute;
+}
+.dest-button2:hover {
+    color: #a9c5f2;
+}
+.dest-card:hover .dest-button2 , .dest-card:hover .dest-p , .dest-card:hover .overlay{
+   display: block;
+} 
+.dest-card:hover .dest-h1{
+   margin-top: 15px;
+}
+/*Destination Section Code Ends Here*/
+
+/*Popular Tour Section Code Starts Here*/
+/*Card Code*/
+.tour-card{
+    width: 360px;
+    height: 490px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.catch{
+    background-image: url("../img/tour1.png");
+}
+.viewer{
+    background-image: url("../img/tour2.png");
+}
+.watcher{
+    background-image: url("../img/tour3.png");
+}
+.exam{
+    background-image: url("../img/tour4.png");
+    display: none;
+}
+.result{
+    background-image: url("../img/tour5.png");
+    display: none;
+}
+.overlay2{
+    width: 360px;
+    height: 490px;
+    background: #0000008f;
+}
+.tc-top-h1{
+    font-family: "DM Serif Display",serif;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 32px;
+    color: #ffffff;
+    margin-top: 400px;
+    position: relative;
+    z-index: 9999;
+    padding: 0px 20px 12px 20px;
+}
+.tc-bottom{
+    display: none;
+    position: relative;
+    z-index: 9999;
+}
+/*tour-card-bottom-left*/
+.tc-bottom-left h3{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-bottom: -2px;
+}
+.tc-bottom-left i{
+    color: #ffa11a;
+    font-size: 11px;
+}
+.tc-bottom-left span{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 19px;
+    color: #adaeae;
+    letter-spacing: 0.3px;
+}
+/*tour-card-bottom-right*/
+.tc-bottom-right{
+    margin-left: 95px;
+}
+.tc-bottom-right del{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #a7a7a7;
+}
+.tc-bottom-right h5{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.7;
+    margin-top: -4px;
+}
+.tour-card:hover .tc-bottom , .tour-card:hover .overlay2 , .tour-card:hover .tc-bottom{
+   display: block;
+   display: flex;
+}
+.tour-card:hover .tc-top-h1{
+   margin-top: 330px;
+}
+/*Popolar Tour Section Code Ends Here*/
+
+/*Freshly Added Section Code Starts Here*/
+.card-1{
+    box-shadow: 0 15px 25px rgb(7 7 7 / 6%);
+    overflow: hidden;
+    border-radius: 10px;
+}
+/*Card Top Code*/
+.c-top{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 261px;
+    height: 204px;
+}
+.cat{
+    background-image: url("../img/card1.png");
+}
+.dog{
+    background-image: url("../img/card2.png");
+}
+.frog{
+    background-image: url("../img/card3.png");
+}
+.lion{
+    background-image: url("../img/card4.png");
+}
+.elephent{
+    background-image: url("../img/card5.png");
+}
+.hen{
+    background-image: url("../img/card6.png");
+}
+.crock{
+    background-image: url("../img/card7.png");
+}
+.bird{
+    background-image: url("../img/card8.png");
+}
+.animal{
+    background-image: url("../img/card9.png");
+}
+.card-1:hover .cat{
+    transform: scale(1.05);
+    transition: .5s ease-in-out;
+}
+.card-1:hover .dog{
+    transform: scale(1.05);
+    transition: .5s ease-in-out;
+}
+.card-1:hover .frog{
+    transform: scale(1.05);
+    transition: .5s ease-in-out;
+}
+.card-1:hover .lion{
+    transform: scale(1.05);
+    transition: .5s ease-in-out;
+}
+.card-1:hover .elephent{
+    transform: scale(1.05);
+    transition: .5s ease-in-out;
+}
+.card-1:hover .hen{
+    transform: scale(1.05);
+    transition: .5s ease-in-out;
+}
+.card-1:hover .crock{
+    transform: scale(1.05);
+    transition: .5s ease-in-out;
+}
+.card-1:hover .bird{
+    transform: scale(1.05);
+    transition: .5s ease-in-out;
+}
+.card-1:hover .animal{
+    transform: scale(1.5);
+    transition: .5s ease-in-out;
+}
+/*Card Down Code*/
+.c-down h1{
+    font-family: "DM Serif Display",serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #333;
+    margin-bottom: 0px;
+}
+.c-down i{
+    color: #ffa11a;
+    font-size: 11px;
+}
+.c-down span{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 19px;
+    color: #8c8c8c;
+}
+.c-down del{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #a7a7a7;
+}
+.c-down h4{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #a7a7a7;
+    display: inline-block;
+}
+.c-down h3{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    color: #5c98f2;
+    line-height: 19px;
+    display: inline-block;
+}
+/*Freshly Added Section Code Ends Here*/
+
+/*Hotel Rooms Section Code Starts Here*/
+.hotel-card{
+    box-shadow: 0 15px 25px rgb(7 7 7 / 6%);
+    overflow: hidden;
+    border-radius: 10px;
+}
+.hotel-top{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 261px;
+    height: 204px;
+    border-top-right-radius: 10px;
+}
+.Hydrogen{
+    background-image: url("../img/room1.png");
+}
+.Helium{
+    background-image: url("../img/room2.png");
+}
+.Lithium{
+    background-image: url("../img/room3.png");
+}
+.Beryllium{
+    background-image: url("../img/room4.png");
+}
+.Boron{
+    background-image: url("../img/room5.png");
+}
+.Carbon{
+    background-image: url("../img/room6.png");
+}
+.hotel-card:hover .Hydrogen{
+    transform: scale(1.05);
+    transition: .5s ease-in-out;
+}
+.hotel-card:hover .Helium{
+    transform: scale(1.05);
+    transition: .5s ease-in-out;
+}
+.hotel-card:hover .Lithium{
+    transform: scale(1.05);
+    transition: .5s ease-in-out;
+}
+.hotel-card:hover .Beryllium{
+    transform: scale(1.05);
+    transition: .5s ease-in-out;
+}
+.hotel-card:hover .Boron{
+    transform: scale(1.05);
+    transition: .5s ease-in-out;
+}
+.hotel-card:hover .Carbon{
+    transform: scale(1.05);
+    transition: .5s ease-in-out;
+}
+/*Hotel Down Code*/
+.hotel-down h1{
+    font-family: "DM Serif Display",serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #333;
+    margin-bottom: 0px;
+}
+.hotel-down i{
+    color: #ffa11a;
+    font-size: 11px;
+}
+.hotel-down span{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 19px;
+    color: #8c8c8c;
+}
+.extra{
+    margin: 10px 0px 15px 0px;
+}
+.extra i{
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000;
+}
+.extra h6{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #848484;
+    padding: 0px 12px;
+    display: inline-block;
+}
+.hotel-down h4{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    color: #282828;
+    display: inline-block;
+}
+.hotel-down del{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #282828;
+}
+.hotel-down h3{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    color: #282828;
+    line-height: 39px;
+    display: inline-block;
+}
+/*hotel2-left Code*/
+.hotel2-left{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/beach.png");
+    border-radius: 12px;
+    padding: 50px 45px 55px 45px;
+}
+.hotel2-left h1{
+    font-family: "DM Serif Display",serif;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 54px;
+    color: #fff;
+}
+.hotel2-left p{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    color: #fff;
+    padding: 0px 80px 0px 0px;
+    margin: 20px 0px 35px 0px;
+}
+.hotel2-left button{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    background-color: #5c98f2;
+    border: none;
+    border-radius: 10px; 
+    padding: 13px 33px;  
+}
+/*hotel2-right Code*/
+.hotel2-right{
+    padding: 60px 45px 55px 45px;
+    background: #e1e1e1;
+    border-radius: 12px;
+}
+.hotel2-right h1{
+    font-family: "DM Serif Display",serif;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 40px;
+    color: #000;
+}
+.hotel2-right p{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    padding-right: 20px;
+    margin: 27px 0px 35px 0px;
+}
+.hotel2-right i{
+    font-size: 18px;
+    line-height: 50px;
+    color: #8c8c8c;
+    margin: 0px -40px 0px 25px;
+    z-index: 11;
+}
+.hotel2-right input{
+    border: none;
+    border-radius: 30px;
+    padding: 5px 90px 5px 55px;
+}
+.hotel2-right button{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 21px;
+    color: #fff;
+    background-color: #5c98f2;
+    border: none;
+    border-radius: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 15px 40px;
+    margin-left: -40px;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    display: none;
+}
+/*Hotel Rooms Section Code Ends Here*/
+
+/*Testimonial Section Code Starts Here*/
+.testimonial{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/testimonial-bg.png");
+    padding: 100px 0px;
+}
+.pa{
+    padding: 0px 250px;
+}
+.comments{
+    width: 680px;
+    height: 343px;
+    background: #fff;
+    border-radius: 25px;
+    padding: 70px 50px 0px 70px;
+}
+.test-left img{
+    height: 82px;
+    width: 82px;
+    border-radius: 50%;
+}
+.test-right{
+    padding-left: 30px;
+}
+.test-right-up-left h1{
+    font-family: "DM Serif Display",serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    color: #12022f;
+    letter-spacing: 1.5px;
+    margin-bottom: 3px;
+}
+.test-right-up-left h2{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #bebebe;
+}
+.test-right-up-right{
+    color: #ffc200;
+    font-size: 18px;
+    margin-left: 200px;
+    margin-top: 11px;
+}
+.test-right-down p{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    color: #565656;
+}
+/*Testimonial Section Code Ends Here*/
+
+/*Price Section Code Starts Here*/ 
+.newton img{
+    height: 61px;
+    width: 61px;
+}
+.einstine{
+    padding-left: 25px;
+}
+.einstine h1{
+    font-family: "DM Serif Display",serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37px;
+    color: #383838;
+    margin-top: -10px;
+}
+.einstine p{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    color: #8c8c8c;
+}
+/*Price Section Code Ends Here*/ 
+
+/*Footer-Top Section Code Starts Here*/
+.book{
+    background: #333333;
+}
+.pen{
+    color: #fff;
+    padding: 13px 15px 10px 18px;
+}
+.same{
+    font-family: "DM Serif Display",serif;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 32px;
+    color: #fff;
+}
+.work{
+    margin-bottom: 30px;
+}
+.ft-second h2{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #fff;
+    display: inline-block;
+}
+.stand{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #9a9a9a;
+}
+.stand:hover{
+    color: #5c98f2;
+}
+.ft-second i{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    padding-right: 15px;
+    margin-top: 30px;
+}
+.ft-second i:hover{
+    color: #5c98f2;
+}
+.brave p{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #fff;
+}
+.brave i{
+    font-size: 23px;
+    color: #ffffff;
+    margin-right: 15px;
+}
+/*Footer-Top Section Code Ends Here*/
+
+/*Footer Section Code Starts Here*/
+/*footer-left Code*/
+.footer-left ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px;
+}
+.footer-left ul li a{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #838383;
+    text-decoration: none;
+}
+.footer-left ul li a:hover{
+    color: #a9c5f2;
+}
+/*footer-right Code*/
+.footer-right p{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #838383;
+    text-align: end;
+}
+.footer-right p span:hover{
+    color: #a9c5f2;
+}
+/*Footer Section Code Ends Here*/
